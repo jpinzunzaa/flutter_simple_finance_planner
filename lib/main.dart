@@ -41,6 +41,7 @@ class _FinanceScreenState extends State<FinanceScreen> {
     });
   }
 
+
   void _addExpense() {
     setState(() {
       _totalExpenses += double.tryParse(_expenseController.text) ?? 0;
